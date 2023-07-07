@@ -1,0 +1,58 @@
+.contact{
+    padding: 20px 0;
+
+    .contact-container{
+        width: 85%;
+        margin: 0 auto;
+
+        .contact-head{
+            padding: 10px 0;
+        }
+        .contact-content{
+            display: flex;
+            justify-content: center;
+            text-align: justify;
+           
+            
+            .content1{
+                width: 50%;
+                display: flex;
+                flex-wrap: wrap;
+
+                .address{
+                    width: 50%;
+                    text-align: center;
+
+
+                    i{
+                        font-size: 44px;
+                        color: #fcaf04;
+                    }
+                    h2{
+
+                    }
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+
+                    
+                }
+
+                
+                
+
+            }
+            .content2{
+                width: 50%;
+               
+                
+
+                
+
+            }
+
+        }
+
+    }
+}

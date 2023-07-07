@@ -1,0 +1,43 @@
+.chitplans{
+    padding: 20px 0;
+
+    .chitplans-container{
+        width: 85%;
+        margin: 0 auto;
+
+        .chitplans-head{
+            padding: 10px 0;
+        }
+        .chitplans-content{
+            
+            .table1{
+
+                table {
+                   
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+
+                td, th {
+                    border: 1px solid #dddddd;
+                    text-align: left;
+                    padding: 8px;
+                }
+                td {
+                    border: 1px solid #dddddd;
+                    text-align: center;
+                    padding: 8px;
+                }
+
+                tr:nth-child(even) {
+                    background-color: #dddddd;
+                }
+            }
+           
+            
+            
+
+        }
+
+    }
+}

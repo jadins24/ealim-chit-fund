@@ -1,0 +1,51 @@
+.App {
+    
+    text-align: center;
+
+    .form{
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+  
+      input{
+        height: 50px;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 5px;
+        border: none;
+        font-size: 20px;
+        background-color: rgba(128, 128, 128, 0.158);
+      
+      }
+      textarea{
+        border: none;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 20px;
+        background-color: rgba(128, 128, 128, 0.158);
+
+      }
+
+      .btn{
+        width: 30%;
+        border: none;
+        border-radius: 8px;
+        border:3px solid #fcaf04;
+        cursor: pointer;
+        font-size: medium;
+        background-color: white;
+        transition: all 1s ease-in-out;
+    
+      }
+      .btn:hover{
+    
+        background-color: #fcaf04;
+      }
+    }
+  }
+ 
+  
+  
+  
+  

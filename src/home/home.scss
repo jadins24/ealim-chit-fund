@@ -1,0 +1,57 @@
+.home{
+    width: 100%;
+    
+
+
+    .slide1{
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+
+    }
+    .slide2{
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+       flex-direction: column;
+
+    }
+
+
+
+
+    .slick-slider{
+        width: 100%;
+    }
+
+    .slick-next {
+        right: 21px;
+    }
+    .slick-prev {
+        left: 26px;
+
+        z-index: 1;
+    }
+    .slick-prev:before, .slick-next:before{
+        font-size: 20px;
+        color: black;
+    }
+}
+
+@media (min-width:320px){
+    
+
+}
+@media (min-width:600px){
+
+
+}
+@media (min-width:1024px){
+
+
+}
